@@ -1,2 +1,6 @@
 site
 .DS_Store
+english-app/node_modules
+english-app/dist
+english-app/.expo
+english-app/.expo-shared

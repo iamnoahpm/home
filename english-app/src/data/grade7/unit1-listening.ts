@@ -1,0 +1,105 @@
+import { ListeningExercise } from '../../types/curriculum';
+
+export const grade7Unit1Listening: ListeningExercise[] = [
+  {
+    id: 'g7-u1-tf-1',
+    grade: 7,
+    unit: 1,
+    unitTitle: 'My Hobbies',
+    title: 'True or False: Minh\'s Hobbies',
+    titleVi: 'Đúng hay Sai: Sở thích của Minh',
+    audioText:
+      "Hi, my name is Minh. I have many hobbies. I love reading books — I read every evening before bed. I also enjoy swimming. I go to the swimming pool every Saturday morning with my brother. My sister's hobby is cooking. She cooks dinner for our family on Sundays. My friend Tom collects stamps. He has over three hundred stamps from many countries. We think hobbies make our life more interesting.",
+    difficulty: 'easy',
+    questions: [
+      {
+        type: 'true-false',
+        id: 'g7-u1-tf-1-q1',
+        text: 'Minh reads books every morning.',
+        answer: false,
+        explanation: 'Minh said "I read every evening before bed."',
+      },
+      {
+        type: 'true-false',
+        id: 'g7-u1-tf-1-q2',
+        text: 'Minh goes swimming every Saturday.',
+        answer: true,
+        explanation: '"I go to the swimming pool every Saturday morning."',
+      },
+      {
+        type: 'true-false',
+        id: 'g7-u1-tf-1-q3',
+        text: "Minh's sister enjoys swimming.",
+        answer: false,
+        explanation: '"My sister\'s hobby is cooking."',
+      },
+      {
+        type: 'true-false',
+        id: 'g7-u1-tf-1-q4',
+        text: "Tom has more than three hundred stamps.",
+        answer: true,
+        explanation: '"He has over three hundred stamps."',
+      },
+      {
+        type: 'true-false',
+        id: 'g7-u1-tf-1-q5',
+        text: 'Minh thinks hobbies make life boring.',
+        answer: false,
+        explanation: '"We think hobbies make our life more interesting."',
+      },
+    ],
+  },
+  {
+    id: 'g7-u1-mc-1',
+    grade: 7,
+    unit: 1,
+    unitTitle: 'My Hobbies',
+    title: 'Multiple Choice: Hobby Survey',
+    titleVi: 'Chọn đáp án: Khảo sát sở thích',
+    audioText:
+      "Good afternoon class. Today we have the results of our hobby survey. In our class of thirty students, fifteen students say their hobby is playing video games. Eight students enjoy reading. Four students love painting and drawing. And three students say their hobby is gardening. The most popular hobby is playing video games. The least popular hobby is gardening. Our teacher says hobbies are important for our health and happiness.",
+    difficulty: 'medium',
+    questions: [
+      {
+        type: 'multiple-choice',
+        id: 'g7-u1-mc-1-q1',
+        text: 'How many students are in the class?',
+        options: ['Twenty', 'Twenty-five', 'Thirty', 'Thirty-five'],
+        answer: 2,
+        explanation: '"In our class of thirty students..."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g7-u1-mc-1-q2',
+        text: 'How many students enjoy reading?',
+        options: ['Three', 'Four', 'Eight', 'Fifteen'],
+        answer: 2,
+        explanation: '"Eight students enjoy reading."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g7-u1-mc-1-q3',
+        text: 'What is the most popular hobby?',
+        options: ['Reading', 'Painting', 'Gardening', 'Playing video games'],
+        answer: 3,
+        explanation: '"The most popular hobby is playing video games."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g7-u1-mc-1-q4',
+        text: 'What is the least popular hobby?',
+        options: ['Reading', 'Painting', 'Gardening', 'Playing video games'],
+        answer: 2,
+        explanation: '"The least popular hobby is gardening."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g7-u1-mc-1-q5',
+        text: 'Why does the teacher say hobbies are important?',
+        options: ['For school grades', 'For health and happiness', 'For making friends', 'For learning new skills'],
+        answer: 1,
+        explanation: '"Hobbies are important for our health and happiness."',
+      },
+    ],
+  },
+];
