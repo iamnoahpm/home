@@ -1,0 +1,105 @@
+import { ListeningExercise } from '../../types/curriculum';
+
+export const grade6Unit1Listening: ListeningExercise[] = [
+  {
+    id: 'g6-u1-tf-1',
+    grade: 6,
+    unit: 1,
+    unitTitle: 'My New School',
+    title: 'True or False: Nam\'s School',
+    titleVi: 'Đúng hay Sai: Trường của Nam',
+    audioText:
+      'Hello, my name is Nam. I am a student at Quang Trung School. My school is big and new. It has thirty classrooms and a large library. There is also a computer room and a playground. My favourite room is the library because I love reading. My school starts at seven thirty in the morning. I walk to school every day with my friend Lan.',
+    difficulty: 'easy',
+    questions: [
+      {
+        type: 'true-false',
+        id: 'g6-u1-tf-1-q1',
+        text: "Nam's school is small and old.",
+        answer: false,
+        explanation: 'Nam said "My school is big and new."',
+      },
+      {
+        type: 'true-false',
+        id: 'g6-u1-tf-1-q2',
+        text: 'The school has thirty classrooms.',
+        answer: true,
+        explanation: 'Nam said "It has thirty classrooms."',
+      },
+      {
+        type: 'true-false',
+        id: 'g6-u1-tf-1-q3',
+        text: "Nam's favourite room is the computer room.",
+        answer: false,
+        explanation: 'Nam said "My favourite room is the library."',
+      },
+      {
+        type: 'true-false',
+        id: 'g6-u1-tf-1-q4',
+        text: 'Nam goes to school by bicycle.',
+        answer: false,
+        explanation: 'Nam said "I walk to school every day."',
+      },
+      {
+        type: 'true-false',
+        id: 'g6-u1-tf-1-q5',
+        text: 'Nam walks to school with his friend.',
+        answer: true,
+        explanation: 'Nam said "I walk to school every day with my friend Lan."',
+      },
+    ],
+  },
+  {
+    id: 'g6-u1-mc-1',
+    grade: 6,
+    unit: 1,
+    unitTitle: 'My New School',
+    title: 'Multiple Choice: School Rules',
+    titleVi: 'Chọn đáp án: Nội quy trường học',
+    audioText:
+      'Good morning everyone. Today, Miss Hoa is talking about school rules. First, students must wear the school uniform every day. Second, students must not use mobile phones in class. Third, students should be on time — school starts at seven thirty. Fourth, students must keep the classroom clean. Finally, students should listen carefully to the teacher. Miss Hoa says a good student follows all these rules.',
+    difficulty: 'easy',
+    questions: [
+      {
+        type: 'multiple-choice',
+        id: 'g6-u1-mc-1-q1',
+        text: 'What is Miss Hoa talking about?',
+        options: ['School subjects', 'School rules', 'School uniforms', 'School hours'],
+        answer: 1,
+        explanation: '"Miss Hoa is talking about school rules."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g6-u1-mc-1-q2',
+        text: 'What must students wear every day?',
+        options: ['Sports clothes', 'Traditional clothes', 'School uniform', 'Casual clothes'],
+        answer: 2,
+        explanation: '"Students must wear the school uniform every day."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g6-u1-mc-1-q3',
+        text: 'When does school start?',
+        options: ['Seven o\'clock', 'Seven fifteen', 'Seven thirty', 'Eight o\'clock'],
+        answer: 2,
+        explanation: '"School starts at seven thirty."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g6-u1-mc-1-q4',
+        text: 'What must students NOT do in class?',
+        options: ['Listen to the teacher', 'Use mobile phones', 'Wear a uniform', 'Be on time'],
+        answer: 1,
+        explanation: '"Students must not use mobile phones in class."',
+      },
+      {
+        type: 'multiple-choice',
+        id: 'g6-u1-mc-1-q5',
+        text: 'According to Miss Hoa, what does a good student do?',
+        options: ['Follows some rules', 'Follows all the rules', 'Comes to school late', 'Uses a phone in class'],
+        answer: 1,
+        explanation: '"A good student follows all these rules."',
+      },
+    ],
+  },
+];
